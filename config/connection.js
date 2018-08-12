@@ -15,13 +15,13 @@ if (process.env.JAWSDB_URL) {
 };
 
 // Connect to specified server using object data provided.
-sqlConnect.connect(function (err) {
+connection.connect(function (err) {
     if (err) {
         console.error("error connecting: " + err.stack);
         return;
     }
-    console.log('Connected as id ' + sqlConnect.threadId);
+    console.log('Connected as id ' + connection.threadId);
 });
 
 // Export the connection.
-module.exports = sqlConnect;
+module.exports = connection;
