@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-image: url("../img/burger.jpg");
+    background-size: cover;
+}
+
+.container {
+    background: gray;
+    border-radius: 12px;
+    border: black 2px solid;
+}
+
+.darkbox {
+    background: lightblue;
+    border: black 1px solid;
+    border-radius: 12px;
+}
