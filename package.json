@@ -1,0 +1,26 @@
+{
+  "name": "burgerbuilder",
+  "version": "1.0.0",
+  "description": "+ Burger Me is a restaurant app that lets users input the names of burgers they'd like to eat.\r + Whenever a user submits a burger's name, it is displayed on the left side of the page -- waiting to be devoured!\r + Each burger in the waiting area has a \"Devour it!\" button. When the user clicks it, the burger will move to the right side of the page and is \"devoured.\"\r + Every burger is stored in a mysql database, whether devoured or not.",
+  "main": "burgers_controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bshin19/burgerme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bshin19/burgerme/issues"
+  },
+  "homepage": "https://github.com/bshin19/burgerme#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
