@@ -15,3 +15,11 @@ body {
     border: black 1px solid;
     border-radius: 12px;
 }
+
+.dkBluBG {
+    background: darkblue;
+}
+
+a {
+    color: black;
+}

@@ -1,6 +1,20 @@
 <!-- Setup the index.handlebars to
 have the template that Handlebars can render onto.-->
+
 <div class="container">
+
+  <!--Bootstrap NavBar inserted and modified for personal use-->
+  <div class="row">
+    <div class="col-12">
+      <nav class="navbar-expand-lg">
+        <a class="navbar-brand alt-color" href="https://bshin19.github.io/">
+          Brady Shinners
+        </a>
+      </nav>
+    </div>
+  </div>
+
+
   <div class="row">
     <div class="col-10 mx-auto mainbod">
       <h1>
@@ -38,13 +52,13 @@ have the template that Handlebars can render onto.-->
           <img class="img-responsive img-thumbnail" src="assets/img/burger.jpg">
         </div>
 
-        <div class="col-4">
+        <div class="col-4 darkbox">
           <h2>Add a Burger</h2>
           <form class="create-form">
 
             <div class="form-group">
-              <label for="ca">Burger Name:</label>
-              <input type="text" id="brgrName" name="name">
+              <label for="brgrName">Burger Name:</label>
+              <input type="text" id="brgrName" name="name" placeholder="Burger Name">
             </div>
 
             <button type="submit" class="btn btn-primary" id="subBtn">Add Burgaaah!</button>
