@@ -46,7 +46,7 @@ var orm = {
 
         queryString += " (";
         queryString += cols.toString();
-        queryString += ")";
+        queryString += ") VALUES (?)";
 
         console.log(queryString);
 

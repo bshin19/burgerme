@@ -9,7 +9,7 @@ have the template that Handlebars can render onto.-->
     {{#unless devoured}}
       {{this.id}}. {{this.burger_name}}
       <br>
-      <button data-id="{{this.id}}">Devour!</button>
+      <button data-id="{{this.id}}" class="devour">Devour!</button>
       <br>
     {{/unless}}
   {{/each}}
@@ -30,8 +30,8 @@ have the template that Handlebars can render onto.-->
 
   <div class="form-group">
     <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
+    <input type="text" id="brgrName" name="name">
   </div>
 
-  <button type="submit">Add Burgaaah!</button>
+  <button type="submit" id="subBtn">Add Burgaaah!</button>
 </form>
